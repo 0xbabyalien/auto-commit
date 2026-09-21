@@ -1,0 +1,41 @@
+name: Commit
+
+on:
+  push:
+    branches:
+      - 0xbabyalien
+  schedule:
+    # Runs 4 times a day (every 6 hours: at 00:00, 06:00, 12:00, and 18:00 UTC)
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate commit entry
+        run: bash scripts/generate-entry.sh
+
+      - name: Commit and push if changed
+        run: |
+          # Using the official GitHub Actions bot identity
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add COMMIT_LOG.md .commit-state
+
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+
+          git commit -m "auto: commit entry for $(date -u +%Y-%m-%d %H:%M)"
+          git push
