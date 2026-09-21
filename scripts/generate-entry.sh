@@ -5,7 +5,7 @@ LOG_FILE="COMMIT_LOG.md"
 STATE_FILE=".commit-state"
 TODAY="$(date -u +%Y-%m-%d)"
 
-# Original set of short dev-notes, rotated deterministically by day count
+# Original set of short dev-notes, rotated deterministically by commit count
 # rather than pure randomness, so the sequence is reproducible and testable.
 NOTES=(
   "Small consistent steps compound faster than sporadic large ones."
@@ -23,20 +23,20 @@ if [ ! -f "$STATE_FILE" ]; then
   echo "0" > "$STATE_FILE"
 fi
 
-DAY_COUNT=$(cat "$STATE_FILE")
-DAY_COUNT=$((DAY_COUNT + 1))
-echo "$DAY_COUNT" > "$STATE_FILE"
+COMMIT_COUNT=$(cat "$STATE_FILE")
+COMMIT_COUNT=$((COMMIT_COUNT + 1))
+echo "$COMMIT_COUNT" > "$STATE_FILE"
 
-NOTE_INDEX=$((DAY_COUNT % ${#NOTES[@]}))
+NOTE_INDEX=$((COMMIT_COUNT % ${#NOTES[@]}))
 NOTE="${NOTES[$NOTE_INDEX]}"
 
 # Initialize log file with a header on first run
 if [ ! -f "$LOG_FILE" ]; then
-  printf '# commit Log\n\nAutomated activity log. One entry per run.\n\n' > "$LOG_FILE"
+  printf '# Commit Log\n\nAutomated activity log. One entry per run.\n\n' > "$LOG_FILE"
 fi
 
 {
-  printf -- '- **Day %s** (%s) — %s\n' "$DAY_COUNT" "$TODAY" "$NOTE"
+  printf -- '- **Commit #%s** (%s) — %s\n' "$COMMIT_COUNT" "$TODAY" "$NOTE"
 } >> "$LOG_FILE"
 
-echo "Appended day $DAY_COUNT entry for $TODAY."
+echo "Appended commit $COMMIT_COUNT entry for $TODAY."
