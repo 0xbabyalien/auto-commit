@@ -7,9 +7,8 @@ A minimal GitHub Actions workflow that automatically generates and pushes commit
 - **Append, don't overwrite.** Every run adds one new line to `COMMIT_LOG.md`
   instead of rewriting the same file in place. Over time this becomes a
   readable diary of activity rather than a meaningless timestamp diff.
-- **Deterministic rotation, not pure randomness.** The dev-note shown each
-  day is selected by a running day-counter (`.commit-state`), so the sequence
-  is reproducible and easy to reason about or extend.
+- **Deterministic rotation, not pure randomness.** The dev-note shown on eachrun is selected by a
+  running commit counter (`.commit-state`), so the sequence is reproducible and easy to reason about or extend.
 - **No emoji-roulette commit messages.** Commit messages are plain and
   descriptive (`commit: entry for YYYY-MM-DD`).
 - **Skips empty commits.** If nothing changed, the workflow exits quietly
@@ -33,7 +32,6 @@ A minimal GitHub Actions workflow that automatically generates and pushes commit
 
 
 ## Files
-
 | File | Purpose |
 |---|---|
 | `.github/workflows/commit.yml` | Workflow definition: trigger, schedule (4x daily), checkout, run script, and push using the official bot. |
