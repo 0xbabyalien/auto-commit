@@ -37,5 +37,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "auto: commit entry for $(date -u +%Y-%m-%d %H:%M)"
+          git commit -m "chore: automated sequence commit update"
           git push
