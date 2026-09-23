@@ -8,3 +8,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #5** (2026-09-22) — Read your own commit history once a month. It teaches you your habits.
 - **Commit #6** (2026-09-22) — The best documentation is the one you wish existed when you were stuck.
 - **Commit #7** (2026-09-23) — Refactor with tests, not with hope.
+- **Commit #8** (2026-09-23) — Small consistent steps compound faster than sporadic large ones.
