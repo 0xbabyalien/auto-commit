@@ -24,3 +24,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #21** (2026-09-26) — Read your own commit history once a month. It teaches you your habits.
 - **Commit #22** (2026-09-26) — The best documentation is the one you wish existed when you were stuck.
 - **Commit #23** (2026-09-27) — Refactor with tests, not with hope.
+- **Commit #24** (2026-09-27) — Small consistent steps compound faster than sporadic large ones.
