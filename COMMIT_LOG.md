@@ -37,3 +37,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #34** (2026-09-30) — Automate the boring parts so you can think about the interesting ones.
 - **Commit #35** (2026-09-30) — Version control is a diary your future self will thank you for.
 - **Commit #36** (2026-10-01) — Green squares are a side effect, not a goal. Ship something real too.
+- **Commit #37** (2026-10-01) — Read your own commit history once a month. It teaches you your habits.
