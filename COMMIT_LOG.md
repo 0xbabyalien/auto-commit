@@ -63,3 +63,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #60** (2026-10-09) — Green squares are a side effect, not a goal. Ship something real too.
 - **Commit #61** (2026-10-09) — Read your own commit history once a month. It teaches you your habits.
 - **Commit #62** (2026-10-09) — The best documentation is the one you wish existed when you were stuck.
+- **Commit #63** (2026-10-10) — Refactor with tests, not with hope.
