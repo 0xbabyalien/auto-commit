@@ -83,3 +83,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #80** (2026-10-15) — Small consistent steps compound faster than sporadic large ones.
 - **Commit #81** (2026-10-15) — A quiet repo is not a dead one; check the issues, not just the graph.
 - **Commit #82** (2026-10-16) — Automate the boring parts so you can think about the interesting ones.
+- **Commit #83** (2026-10-16) — Version control is a diary your future self will thank you for.
