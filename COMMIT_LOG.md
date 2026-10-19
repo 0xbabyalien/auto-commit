@@ -97,3 +97,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #94** (2026-10-19) — The best documentation is the one you wish existed when you were stuck.
 - **Commit #95** (2026-10-19) — Refactor with tests, not with hope.
 - **Commit #96** (2026-10-19) — Small consistent steps compound faster than sporadic large ones.
+- **Commit #97** (2026-10-19) — A quiet repo is not a dead one; check the issues, not just the graph.
