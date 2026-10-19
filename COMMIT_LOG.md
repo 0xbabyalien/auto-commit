@@ -94,3 +94,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #91** (2026-10-18) — Version control is a diary your future self will thank you for.
 - **Commit #92** (2026-10-18) — Green squares are a side effect, not a goal. Ship something real too.
 - **Commit #93** (2026-10-18) — Read your own commit history once a month. It teaches you your habits.
+- **Commit #94** (2026-10-19) — The best documentation is the one you wish existed when you were stuck.
