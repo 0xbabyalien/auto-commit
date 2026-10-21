@@ -104,3 +104,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #101** (2026-10-20) — Read your own commit history once a month. It teaches you your habits.
 - **Commit #102** (2026-10-21) — The best documentation is the one you wish existed when you were stuck.
 - **Commit #103** (2026-10-21) — Refactor with tests, not with hope.
+- **Commit #104** (2026-10-21) — Small consistent steps compound faster than sporadic large ones.
