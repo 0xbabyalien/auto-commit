@@ -116,3 +116,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #113** (2026-10-23) — A quiet repo is not a dead one; check the issues, not just the graph.
 - **Commit #114** (2026-10-24) — Automate the boring parts so you can think about the interesting ones.
 - **Commit #115** (2026-10-24) — Version control is a diary your future self will thank you for.
+- **Commit #116** (2026-10-24) — Green squares are a side effect, not a goal. Ship something real too.
