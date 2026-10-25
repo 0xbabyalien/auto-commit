@@ -120,3 +120,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #117** (2026-10-24) — Read your own commit history once a month. It teaches you your habits.
 - **Commit #118** (2026-10-25) — The best documentation is the one you wish existed when you were stuck.
 - **Commit #119** (2026-10-25) — Refactor with tests, not with hope.
+- **Commit #120** (2026-10-25) — Small consistent steps compound faster than sporadic large ones.
