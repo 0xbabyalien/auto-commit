@@ -130,3 +130,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #127** (2026-10-27) — Refactor with tests, not with hope.
 - **Commit #128** (2026-10-27) — Small consistent steps compound faster than sporadic large ones.
 - **Commit #129** (2026-10-28) — A quiet repo is not a dead one; check the issues, not just the graph.
+- **Commit #130** (2026-10-28) — Automate the boring parts so you can think about the interesting ones.
