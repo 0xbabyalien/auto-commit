@@ -157,3 +157,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #154** (2026-11-06) — Automate the boring parts so you can think about the interesting ones.
 - **Commit #155** (2026-11-06) — Version control is a diary your future self will thank you for.
 - **Commit #156** (2026-11-07) — Green squares are a side effect, not a goal. Ship something real too.
+- **Commit #157** (2026-11-07) — Read your own commit history once a month. It teaches you your habits.
