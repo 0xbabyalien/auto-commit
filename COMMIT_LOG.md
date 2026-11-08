@@ -161,3 +161,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #158** (2026-11-07) — The best documentation is the one you wish existed when you were stuck.
 - **Commit #159** (2026-11-08) — Refactor with tests, not with hope.
 - **Commit #160** (2026-11-08) — Small consistent steps compound faster than sporadic large ones.
+- **Commit #161** (2026-11-08) — A quiet repo is not a dead one; check the issues, not just the graph.
