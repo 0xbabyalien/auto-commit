@@ -173,3 +173,4 @@ Automated activity log. One entry is appended each time the workflow runs.
 - **Commit #170** (2026-11-12) — Automate the boring parts so you can think about the interesting ones.
 - **Commit #171** (2026-11-12) — Version control is a diary your future self will thank you for.
 - **Commit #172** (2026-11-13) — Green squares are a side effect, not a goal. Ship something real too.
+- **Commit #173** (2026-11-13) — Read your own commit history once a month. It teaches you your habits.
